@@ -49,7 +49,7 @@ class Syntax_Plugin_symbols extends DokuWiki_Syntax_Plugin {
     /**
      * Etapas Simples Numeradas
      */
-            $this->Lexer->addSpecialPattern('i-mp-01',$mode,'plugin_symbols');
+         $this->Lexer->addSpecialPattern('i-mp-01',$mode,'plugin_symbols');
 		 $this->Lexer->addSpecialPattern('i-mp-02',$mode,'plugin_symbols');
 		 $this->Lexer->addSpecialPattern('i-mp-03',$mode,'plugin_symbols');
 		 $this->Lexer->addSpecialPattern('i-mp-04',$mode,'plugin_symbols');
@@ -99,7 +99,7 @@ class Syntax_Plugin_symbols extends DokuWiki_Syntax_Plugin {
             $this->Lexer->addSpecialPattern('i-mp-ns',$mode,'plugin_symbols');
 
     /**
-     * Variantes do Fluxo de Saída
+     * Variantes do Fluxo de Saï¿½da
      */
             $this->Lexer->addSpecialPattern('i-mp-se-sn',$mode,'plugin_symbols');
             $this->Lexer->addSpecialPattern('i-mp-se-ns',$mode,'plugin_symbols');
@@ -342,7 +342,7 @@ class Syntax_Plugin_symbols extends DokuWiki_Syntax_Plugin {
 
 
     /**
-     * Variantes de Linhas Secundárias
+     * Variantes de Linhas Secundï¿½rias
      */
             $this->Lexer->addSpecialPattern('i-mp-le-sn',$mode,'plugin_symbols');
             $this->Lexer->addSpecialPattern('i-mp-ld-sn',$mode,'plugin_symbols');
@@ -554,7 +554,7 @@ class Syntax_Plugin_symbols extends DokuWiki_Syntax_Plugin {
 
 
     /**
-     * Variantes de Fluxos Secundários
+     * Variantes de Fluxos Secundï¿½rios
      */
             $this->Lexer->addSpecialPattern('i-mp-fd-sn',$mode,'plugin_symbols');
             $this->Lexer->addSpecialPattern('i-mp-fd-ns',$mode,'plugin_symbols');
@@ -724,7 +724,7 @@ class Syntax_Plugin_symbols extends DokuWiki_Syntax_Plugin {
 
 
     /**
-     * Variantes de Etapas Excêntricas
+     * Variantes de Etapas Excï¿½ntricas
      */
 
 		 $this->Lexer->addSpecialPattern('i-mp-fd-fd-ns',$mode,'plugin_symbols');
@@ -886,7 +886,7 @@ class Syntax_Plugin_symbols extends DokuWiki_Syntax_Plugin {
 		 $this->Lexer->addSpecialPattern('i-mp-bdx-28',$mode,'plugin_symbols');
 
     /**
-     * Combinações
+     * Combinaï¿½ï¿½es
      */
 		 $this->Lexer->addSpecialPattern('i-mp-ee-fd-ns',$mode,'plugin_symbols');
 		 $this->Lexer->addSpecialPattern('i-mp-ee-fd-sn',$mode,'plugin_symbols');
